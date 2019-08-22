@@ -3,7 +3,7 @@
     <!ENTITY Product_name_short "Battery Life">
     ]>
 
-<resources xmlns:tools="http://schemas.android.com/tools">
+<resources>
 
     <string name="app_label_for_launcher">&Product_name_short;</string>
     <string name="app_name">&Product_name;</string>
