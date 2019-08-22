@@ -1,0 +1,29 @@
+﻿<!DOCTYPE resources [
+    <!ENTITY Product_name "Kaspersky Battery\u00A0Life">
+    <!ENTITY Product_name_short "Battery Life">
+    ]>
+
+<resources>
+
+    <string name="app_label_for_launcher">&Product_name_short;</string>
+    <string name="app_name">&Product_name;</string>
+    <string name="app_name_with_beta_suffix">&Product_name; beta</string>
+
+    <!--main screen-->
+    <string name="navigation_drawer_header_title">&Product_name;</string>
+    <string name="drawer_menu_battery_status">Battery life</string>
+    <string name="drawer_menu_white_list">Favorites</string>
+    <string name="drawer_menu_settings">Settings</string>
+    <string name="drawer_menu_help">Help</string>
+    <string name="drawer_menu_about">About</string>
+    <string name="drawer_open">Show navigation menu</string>
+    <string name="drawer_close">Hide navigation menu</string>
+
+    <string name="fragment_battery_details_added_time_caption_no_apps">No apps were stopped. You still can get</string>
+    <plurals name="fragment_battery_details_added_time_caption">
+        <item quantity="one">%1$d app stopped. Battery life is extended by</item>
+        <item quantity="few">%1$d apps stopped. Battery life is extended by</item>
+        <item quantity="many">%1$d apps stopped. Battery life is extended by</item>
+        <item quantity="other">%1$d apps stopped. Battery life is extended by</item>
+    </plurals>
+</resources>
